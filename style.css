@@ -3,7 +3,8 @@ body {
   --light: #f2f5ff;
   --dark: #171717;
   --bluish: #55d6c2;
-  --yellowish: #f5e960;
+  /* --yellowish: #f5e960; */
+  --yellowish: #ffd166;
 
   background-color: white;
   color: var(--dark);
