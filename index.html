@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michał Tomczyk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <p class="logo">Tomczyk</p>
+        <div class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about">O mnie</a></li>
+                <li class="nav-item"><a href="#skillset">Umiejętności</a></li>
+                <li class="nav-item"><a href="#projects">Projekty</a></li>
+                <li class="nav-item"><a href="#contact">Kontakt</a></li>
+            </ul>
+            <ul class="nav-links">
+                <li class="nav-link"><a href="https://www.codewars.com/users/sshrewds" target="_blank"><img src="https://www.codewars.com/assets/logos/logo-square-red-big-dark-text-2e091298050b4a55869eb3c7d02e5cd21561b042f7692401fd9e3a2409078c39.png" alt="codewars"></a></li>
+                <li class="nav-link"><a href="https://github.com/sshrewds" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="github"></a></li>
+            </ul>
+        </div>
+        <button class="hamburger">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </nav>
+    <header class="hero">
+        <div class="heading">
+            <h1>Michał Tomczyk</h1>
+        <p>Student I roku informatyki algorytmicznej na Politechnice Wrocławskiej. </p>
+        </div>
+        <div></div>
+        <img src="./portfolio-img.jpeg" alt="">
+    </header>
+    <div class="mid-section">
+        <section class="description" id="about">
+            <h2>O mnie</h2>
+            <p>Programowaniem zaciekawiłem się już w czasach szkoły podstawowej. Wtedy interesowało mnie głównie tworzenie gier.</p>
+            <p>Jako pierwszy język programowania wybrałem język C++. W tamtym czasie wiele wskazówek znalazłem na forach internetowych i zagranicznych portalach. </p>
+            <p>Następnie zmieniłem obszar swoich zainteresowań na frontend. Zająłem się językami HTML, CSS i JavaScript. Jako pierwszy framework wybrałem React. Na bieżąco uczyłem się też dobrych praktyk programowania.</p>
+            <p>W klasie maturalnej zdecydowałem się dodatkowo zdawać maturę z rozszerzonej informatyki. Podczas przygotowań pogłębiłem swoją wiedzę na temat języka SQL. Na potrzeby egzaminu nauczyłem się też języka Python, który doszkalałem poprzez zadania na stronie CodeWars.</p>
+            <p>Jednocześnie przygotowywałem się do Olimpiady o Diamentowy Indeks AGH z informatyki, matematyki i fizyki. W dwóch pierwszych dziedzinach uzyskałem tytuł finalisty.</p>
+            <p>Następnie rozpocząłem studia na Politechnice Wrocławskiej na kierunku informatyka algorytmiczna. Na pierwszym roku poznałem język Java, w którym chciałbym się dalej rozwijać.</p>
+            <p>Obecnie staram się poszerzać swoją wiedzę i czerpać motywację z perspektywy zdobywania nowych doświadczeń. Jestem ambitny i gotowy do udoskonalania swojego warsztatu programisty.Doceniam każde słowa krytyki i możliwość rozwijania swoich umiejętności. Programowanie to moja pasja i wiążę z nim swoją przyszłość.</p>
+        </section>
+        <section class="skills" id="skillset">
+            <h2>Umiejętności</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <button>HTML5 / CSS3</button>
+                    <p class="collapse-description">
+                        Posługuję się znacznikami semantycznymi. Tworzę responsywne strony internetowe.
+                    </p>
+                </div>
+                <div class="skill-item">
+                    <button>JavaScript</button>
+                    <p class="collapse-description">
+                        Używam JavaScript w standardzie ES6.
+                    </p>
+                </div>
+                <div class="skill-item">
+                    <button>React</button>
+                    <p class="collapse-description">
+                        Korzystam z React Hooks, React Router oraz Styled Components.
+                    </p>
+                </div>
+                <div class="skill-item">
+                    <button>Git</button>
+                    <p class="collapse-description">
+                        Potrafię wykonywać podstawowe operacje na repozytorium.
+                    </p>
+                </div>
+                <div class="skill-item">
+                    <button>C++</button>
+                    <p class="collapse-description">
+                        Rozumiem paradygmaty programowania obiektowego. Korzystam z biblioteki STL oraz standardów C++11.
+                    </p>
+                </div>
+                <div class="skill-item">
+                    <button>Java</button>
+                    <p class="collapse-description">
+                        Piszę wielowątkowe aplikacje. Korzystam z najnowszych standardów.
+                    </p>
+                </div>
+                <div class="skill-item">
+                    <button>Python</button>
+                    <p class="collapse-description">
+                        Znam podstawową składnię języka. Potrafię konstruować niezaawansowane wyrażenia regularne.
+                    </p>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+    
+    <section class="projects-section" id="projects">
+        <h2>Projekty</h2>
+        <div class="projects-container">
+            <div class="project">
+                <p class="date">sierpień 2020</p>
+                
+                <a href="https://github.com/sshrewds/react-newslex" target="_blank"><img src="./newslex.jpg" alt=""></a>
+                <p>NEWSlex - wiadomości</p>
+                <small>HTML, CSS, React, Axios</small>
+            </div>
+            <div class="project">
+                <p class="date">sierpień 2020</p>
+                
+                <a href="https://github.com/sshrewds/vanillajs-dog-api" target="_blank"><img src="./dogapi.jpg" alt=""></a>
+                <p>Dog API</p>
+                <small>HTML, CSS, JavaScript, Fetch API</small>
+            </div>
+            <div class="project">
+                <p class="date">kwiecień 2020</p>
+                
+                <a href="" target="_blank"><img src="./snake.jpg" alt=""></a>
+                <p>Snake</p>
+                <small>C++, SFML</small>
+            </div>
+            <div class="project">
+                <p class="date">maj 2021</p>
+                
+                <a href="" target="_blank"><img src="./drawingshapes.jpg" alt=""></a>
+                <p>Drawing application</p>
+                <small>Java, Swing</small>
+            </div>
+            <div class="project">
+                <p class="date">czerwiec 2021</p>
+                
+                <a href="" target="_blank"><img src="./binarytree.jpg" alt=""></a>
+                <p>Binary tree simulation</p>
+                <small>Java, Swing</small>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="contact" id="contact">
+            <h2>Kontakt</h2>
+            <div class="contact-container">
+                <p>531 720 712</p>
+                <a href="mailto:michaltomczyk28@gmail.com" target="_blank">michaltomczyk28@gmail.com</a>
+            </div>
+        </section>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
