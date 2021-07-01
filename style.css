@@ -102,9 +102,8 @@ a {
   height: 100%;
   width: 300px;
 
-  /* background-color: #DFB2F4; */
   background-color: var(--yellowish);
-  /* opacity: 10%; */
+
   z-index: 2;
   transform: translateX(300px);
   transition: transform 0.4s 0.1s ease-in-out;

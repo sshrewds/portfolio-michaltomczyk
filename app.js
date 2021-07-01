@@ -3,7 +3,6 @@ const navigation = document.querySelector('.navigation');
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('hamburger-active');
     navigation.classList.toggle('navigation-active');
-    console.log(navigation);
 });
 
 const skillItems = document.querySelectorAll('.skill-item');
@@ -20,5 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         const y = section.getBoundingClientRect().top + window.pageYOffset -80;
 
         window.scrollTo({top: y, behavior : 'smooth'});
+        hamburger.classList.toggle('hamburger-active');
+        navigation.classList.toggle('navigation-active');
     });
 });
